@@ -16,6 +16,7 @@ function add(){
 
         req.onload = function(){
             if(req.status===200){
+            	
                 console.log("ddddd");
                 var xmldoc = req.responseXML;
                 var titre = xmldoc.getElementById("title");
