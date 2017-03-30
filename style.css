@@ -2,18 +2,29 @@ html{
   text-align: center;
 }
 h1{
-  text-shadow: 1px 1px #ff0000;
+  text-shadow: 1px 1px #2196F3;
 }
 body{
-  background-color: #eeeeee;
+  background-color: white;
 }
-<<<<<<< HEAD
 
 #doctext{
-	background-color:white;
-	font-style:italic;
+  background-color:#eeeeee;
+  font-style:italic;
+  font-size:14px;
+  color:#2196F3;
 }
-
+#documentation{
+  font-size:32px;
+}
+table,th,td{
+  border:1px solid black;
+}
+table{
+  width:100%;
+  margin-bottom:5%;
+  margin-top:5%;
+}
 
 
 
@@ -25,6 +36,7 @@ body{
   display: inline-block;
   width: 60px;
   height: 34px;
+  margin-top:50px;
 }
 
 /* Hide default HTML checkbox */
@@ -77,5 +89,3 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
-=======
->>>>>>> origin/master
